@@ -33,10 +33,10 @@ variable "environment" {
 
 variable "asg_min_size" {
   description = "Min num instances in the ASG"
-  deafult = 1
+  default = 1
 }
 
 variable "asg_max_size" {
   description = "Max num instances in the ASG"
-  deafult = 2
+  default = 2
 }
