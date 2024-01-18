@@ -17,7 +17,7 @@ variable "ami_filter"{
   }
 }
 
-variable = "environment" {
+var = "environment" {
   description = "Development Environment"
 
   type = object ({
