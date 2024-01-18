@@ -17,7 +17,7 @@ variable "ami_filter"{
   }
 }
 
-var "environment" {
+variable "environment" {
   description = "Development Environment"
 
   type = object ({
@@ -31,12 +31,12 @@ var "environment" {
   }
 }
 
-var "asg_min_size" {
+variable "asg_min_size" {
   description = "Min num instances in the ASG"
   deafult = 1
 }
 
-var "asg_max_size" {
+variable "asg_max_size" {
   description = "Max num instances in the ASG"
   deafult = 2
 }
